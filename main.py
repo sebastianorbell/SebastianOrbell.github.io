@@ -7,7 +7,7 @@ def home():
   
 @app.route("/byskit")
 def byskit():
-  return "Hello John."
+  return render_template("byskit.html")
 
 if __name__ == "__main__":
   app.run(debug=True)
